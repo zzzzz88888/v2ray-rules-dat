@@ -97,7 +97,7 @@
 <details>
   <summary>点击查看在 <b>V2Ray</b> 和 <b>Xray-core</b> 中的使用方法</summary>
   <br/>
-  <p>需要先下载 <code>geoip.dat</code> 格式文件，并放置在程序目录内。</p>
+  <p>需要先下载 <code>geoip.dat</code> 格式文件，并放置在程序目录内。将下方代码块中的"rules"节点<b>中括号[]</b>中的内容拷贝，再去程序根目录或bin目录下找到config.json文件并打开，将拷贝的内容粘贴在对应的"rules"节点下</p>
 
 ```json
 "routing": {
